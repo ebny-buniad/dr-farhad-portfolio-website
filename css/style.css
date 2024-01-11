@@ -11707,11 +11707,14 @@ a.text-dark:focus {
 /* Start Design =======================================================================================================*/
 
 
-
+@font-face{
+  font-family: crice;
+  src: url(../font/CRC35.otf);
+}
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
-  font-size: 13px !important;
+  font-family: crice !important;
+  font-size: 16px !important;
   line-height: 1.8;
   font-weight: 400;
 }
@@ -12041,13 +12044,10 @@ h5,
   text-transform: uppercase;
 }
 .bio_title{
-  font-family: 'k2d';
   font-size: 25px;
   text-shadow: 1px 1px #adb5bd;
 }
-.name{
-  font-family: 'k2d';
-}
+
 @media(max-width: 768px){
   .name{
     margin-top: 50px;
@@ -12077,7 +12077,7 @@ h5,
 
 @media(min-width: 1440px){
   .name{
-    font-size: 40px;
+    font-size: 43px;
     margin-top: 120px;
     font-weight: 800;
     margin-bottom: 30px;
@@ -12920,12 +12920,36 @@ textarea.form-control {
 
 /* About Section */
 
-#about-section{
-  background-color: #f4efea;
+#about_bg{
+  background-image: url('../images/forhad_img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  max-width: 100%;
+  background-blend-mode: darken;
+}
+
+
+/* Contribution */
+.contribution_card{
+  border-radius: 10px;
+}
+.contribution_title{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: #ffffffff;
+  background-color: #083f88;
+  font-weight: 700;
 }
 
 
 /* Awards & Recognition */
+#awards-section{
+  background-color: #f8f9fa ;
+}
 .card-title{
   text-align-last: center;
   font-size: 15px;
@@ -12934,6 +12958,11 @@ textarea.form-control {
 
 
 /* Article Image */
+.news-title{
+  text-align: start;
+  font-weight: 500;
+  font-size: 15px;
+}
 .article_written_date{
   text-align: start;
   margin-top: 20px;
@@ -12960,6 +12989,7 @@ textarea.form-control {
 /* Experience Section */
 
 #resume-section{
+  background-color: #f8f9fa;
 }
 
 
