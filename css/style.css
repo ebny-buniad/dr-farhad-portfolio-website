@@ -12899,6 +12899,15 @@ textarea.form-control {
 
 
 /* ============================================================    Custom Css ==========================================*/
+
+.section-heading{
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .heading{
   color: #000;
 }
