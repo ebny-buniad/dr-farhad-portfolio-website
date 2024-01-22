@@ -12212,7 +12212,7 @@ h5,
 
 /* Slider part */
 .slider_content_area{
-  background-color: rgba(34, 97, 178, 0.49); 
+  background-color:#33475a; 
 color: rgba(34, 97, 178, 0.49);
   /* background: rgba(0, 151, 19, 0.1); */
 }
@@ -12238,7 +12238,7 @@ color: rgba(34, 97, 178, 0.49);
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   color: #ffffffff;
-  background-color: #083f88;
+  background-image: linear-gradient(180deg, #4880ff, #78e7fe);
   font-weight: 700;
 }
 
@@ -12318,7 +12318,7 @@ color: rgba(34, 97, 178, 0.49);
   font-weight: 500;
   transition: 3s;
 }
-strength:hover{
+.strength:hover{
   color: #ffffffff;
   background: rgb(118,129,255);
 background: radial-gradient(circle, rgba(118,129,255,1) 0%, rgba(83,226,255,1) 100%);
