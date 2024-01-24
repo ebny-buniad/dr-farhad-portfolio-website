@@ -12226,12 +12226,8 @@ h5,
   border: 0px;
   padding: 10px 20px 10px 20px;
   border-radius: 3px;
-  transition: .3s;
 }
 
-.read_more_button:hover{
-  background-color: #007bff;
-}
 
 
 /* Slider part */
