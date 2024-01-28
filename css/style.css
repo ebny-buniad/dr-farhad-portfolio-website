@@ -12205,9 +12205,26 @@ h5,
 }
 
 
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+  .x{
+    padd
+  }
+  .y{
+    padding: 50px !important;
+  }
+}
+
+
 /* About Section */
 .about_section {
-  
+
 }
 
 #about-section {
